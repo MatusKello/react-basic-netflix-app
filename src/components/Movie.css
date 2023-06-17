@@ -1,0 +1,33 @@
+.all-movies {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.one-movie {
+  width: 300px;
+  box-shadow: 0px 0px 20px black;
+  color: #e5e5e5;
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s linear;
+}
+
+.one-movie:hover {
+  transform: scale(1.04);
+}
+
+.one-movie img {
+  height: 170px;
+}
+
+.one-movie h2,
+.one-movie p {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
